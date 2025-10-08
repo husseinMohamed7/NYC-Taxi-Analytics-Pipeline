@@ -17,8 +17,6 @@ The pipeline follows a multi-stage data flow, ensuring data quality and analytic
 3.  **Transformation (T):** **dbt (data build tool)** is used to define and execute modular transformations, building up a clean, reliable **Star Schema Data Mart**.
 4.  **Visualization:** The final, optimized data mart is connected to **Power BI** for interactive analysis and business reporting.
 
-![Architecture Diagram Placeholder](https://raw.githubusercontent.com/husseinMohamed7/NYC-Yellow-Taxi-Analytics-Pipeline/main/architecture_diagram.svg) 
-*(Note: Replace this image link with the actual URL to your architecture diagram in your repository.)*
 
 | Source Data ➡️ | Python ETL ➡️ | Snowflake ➡️ | dbt ➡️ | Power BI ➡️ | End Users |
 | :---: | :---: | :---: | :---: | :---: | :---: |
